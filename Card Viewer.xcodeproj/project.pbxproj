@@ -14,7 +14,6 @@
 		A7F2AE97252A2B3B00103E1B /* Card_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F2AE96252A2B3B00103E1B /* Card_ViewerTests.swift */; };
 		A7F2AEA2252A2B3B00103E1B /* Card_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F2AEA1252A2B3B00103E1B /* Card_ViewerUITests.swift */; };
 		A7F2AEB3252A2BF000103E1B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F2AEB2252A2BF000103E1B /* Home.swift */; };
-		A7F2AEBB252A2C1B00103E1B /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F2AEBA252A2C1B00103E1B /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		A7F2AEA1252A2B3B00103E1B /* Card_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_ViewerUITests.swift; sourceTree = "<group>"; };
 		A7F2AEA3252A2B3B00103E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7F2AEB2252A2BF000103E1B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		A7F2AEBA252A2C1B00103E1B /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +100,6 @@
 				A7F2AE84252A2B3A00103E1B /* Card_ViewerApp.swift */,
 				A7F2AE86252A2B3A00103E1B /* ContentView.swift */,
 				A7F2AEB2252A2BF000103E1B /* Home.swift */,
-				A7F2AEBA252A2C1B00103E1B /* SampleData.swift */,
 				A7F2AE88252A2B3B00103E1B /* Assets.xcassets */,
 				A7F2AE8D252A2B3B00103E1B /* Info.plist */,
 				A7F2AE8A252A2B3B00103E1B /* Preview Content */,
@@ -268,7 +265,6 @@
 				A7F2AE87252A2B3A00103E1B /* ContentView.swift in Sources */,
 				A7F2AE85252A2B3A00103E1B /* Card_ViewerApp.swift in Sources */,
 				A7F2AEB3252A2BF000103E1B /* Home.swift in Sources */,
-				A7F2AEBB252A2C1B00103E1B /* SampleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
