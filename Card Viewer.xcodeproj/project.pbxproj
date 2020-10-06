@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A72F4016252C59880086B143 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F4015252C59880086B143 /* CardView.swift */; };
+		A72F401B252C61060086B143 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72F401A252C61060086B143 /* SampleData.swift */; };
 		A7F2AE85252A2B3A00103E1B /* Card_ViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F2AE84252A2B3A00103E1B /* Card_ViewerApp.swift */; };
 		A7F2AE87252A2B3A00103E1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F2AE86252A2B3A00103E1B /* ContentView.swift */; };
 		A7F2AE89252A2B3B00103E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F2AE88252A2B3B00103E1B /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A72F4015252C59880086B143 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A72F401A252C61060086B143 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		A7F2AE81252A2B3A00103E1B /* Card Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F2AE84252A2B3A00103E1B /* Card_ViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_ViewerApp.swift; sourceTree = "<group>"; };
 		A7F2AE86252A2B3A00103E1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				A7F2AE84252A2B3A00103E1B /* Card_ViewerApp.swift */,
 				A7F2AE86252A2B3A00103E1B /* ContentView.swift */,
 				A7F2AEB2252A2BF000103E1B /* Home.swift */,
+				A72F401A252C61060086B143 /* SampleData.swift */,
+				A72F4015252C59880086B143 /* CardView.swift */,
 				A7F2AE88252A2B3B00103E1B /* Assets.xcassets */,
 				A7F2AE8D252A2B3B00103E1B /* Info.plist */,
 				A7F2AE8A252A2B3B00103E1B /* Preview Content */,
@@ -264,6 +270,8 @@
 			files = (
 				A7F2AE87252A2B3A00103E1B /* ContentView.swift in Sources */,
 				A7F2AE85252A2B3A00103E1B /* Card_ViewerApp.swift in Sources */,
+				A72F4016252C59880086B143 /* CardView.swift in Sources */,
+				A72F401B252C61060086B143 /* SampleData.swift in Sources */,
 				A7F2AEB3252A2BF000103E1B /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
