@@ -9,6 +9,8 @@ import SwiftUI
 
 struct Home : View {
     
+    var cardHeight: CGFloat = 150
+    
     @State var data = [
         
         Card(id: 0, image: "nyc", title: "New York", details: "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square.", expand: false),
@@ -54,7 +56,7 @@ struct Home : View {
                             
                             GeometryReader{g in
                                 
-                                CardView(data: self.$data[i], show: self.$show)
+                                CardView(data: self.$data[i], show: self.$show, cardHeight: cardHeight)
                                     
                                     // move view full screen
                                     .offset(y: self.data[i].expand ? -g.frame(in: .global).minY : 0)
@@ -82,7 +84,7 @@ struct Home : View {
                             }
                             // going to increase height based on expand
                             // TODO: get the height from CardView
-                            .frame(height: self.data[i].expand ? UIScreen.main.bounds.height : 150)
+                            .frame(height: self.data[i].expand ? UIScreen.main.bounds.height : cardHeight)
                             
                             // 500 for disabling the drag for scrollview:
                             .simultaneousGesture(DragGesture(minimumDistance: self.data[i].expand ? 0 : 500).onChanged({ (_) in

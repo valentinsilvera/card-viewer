@@ -11,7 +11,7 @@ struct CardView : View {
     
     @Binding var data : Card
     @Binding var show : Bool
-    var cardHeight: CGFloat = 150
+    var cardHeight: CGFloat
     var cardWidth: CGFloat = 160
     
     var body: some View{
